@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  padding: 54px 61px;
+  background: url(../../assets/images/pattern-bg.svg) no-repeat;
+  background-position: 46% 45%;
+  background-size: 88%;
+}
+header .container-img img {
+  width: 254px;
+  height: 253px;
+}
+
+main .testimonial {
+  background: url(../../assets/images/pattern-quotes.svg) no-repeat top center;
+  background-size: 17%;
+}
+main .testimonial p {
+  color: #202046;
+  font-size: 17px;
+  padding: 30px 35px;
+  line-height: 25px;
+  text-align: center;
+}
+main .testimonial h2 {
+  color: #202046;
+  font-size: 18px;
+  text-align: center;
+}
+main .testimonial span {
+  display: block;
+  color: #babacf;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100px;
+}
+.attribution .attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=main.css.map */
