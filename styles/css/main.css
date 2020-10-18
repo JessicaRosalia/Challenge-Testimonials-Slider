@@ -15,6 +15,7 @@ body {
 }
 
 header {
+  position: relative;
   padding: 54px 61px;
   background: url(../../assets/images/pattern-bg.svg) no-repeat;
   background-position: 46% 45%;
@@ -23,6 +24,22 @@ header {
 header .container-img img {
   width: 254px;
   height: 253px;
+}
+header .icon-slider {
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+  background: #fff;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .icon-slider img:nth-child(2) {
+  margin-left: 32px;
 }
 
 main .testimonial {
