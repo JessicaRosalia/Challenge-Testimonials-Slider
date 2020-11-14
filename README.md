@@ -7,7 +7,7 @@
 <br>
   
 <p align="center"> Mobile version :iphone: </p> 
-<p align="center"> <img src="https://github.com/jessicarf18/Challenge-Testimonials-Slider/blob/master/assets/design/mobile-design-slide-1.jpg" alt="Design preview for the Coding Bootcamp Testimonials Slider coding challenge" </p>
+<p align="center"> <img src="https://github.com/jessicarf18/Challenge-Testimonials-Slider/blob/master/assets/design/mobile-design-slide-2.jpg" alt="Design preview for the Coding Bootcamp Testimonials Slider coding challenge" </p>
 <hr>
 <h2> Giving feedback :clipboard: </h2>
 <p>
