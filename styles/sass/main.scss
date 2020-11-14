@@ -3,12 +3,12 @@
 body{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    margin:0 auto;
+    
     max-width: 450px;
     @media(min-width:768px){
         max-width: 900px;
         display: grid;
-       // grid-template-columns: repeat(1fr, 1fr);
+        margin:0 auto;
         grid-template-areas: "description avatar"
                     "description avatar"
                     "attribution attribution";
@@ -34,7 +34,7 @@ body{
 
 header{
     position: relative;
-    padding: 54px 61px;
+    padding: 54px;
     background: url(../../assets/images/pattern-bg.svg) no-repeat;
     background-position: 46% 45%;
     background-size: 88%;
