@@ -2,11 +2,13 @@
 
 <p align="center">My challenge is to build out this testimonial slider and get it looking as close to the design as possible. </p>
 
+<p> Desktop version </p>
 <p align="center"> <img src="https://github.com/jessicarf18/Challenge-Testimonials-Slider/blob/master/assets/design/desktop-preview.jpg" alt="Design preview for the Coding Bootcamp Testimonials Slider coding challenge" </p>
-  
+<br>
+<p> Mobile version </p>
 <p align="center"> <img src="https://github.com/jessicarf18/Challenge-Testimonials-Slider/blob/master/assets/design/mobile-design-slide-1.jpg" alt="Design preview for the Coding Bootcamp Testimonials Slider coding challenge" </p>
-
-<h2> Giving feedback <h2>
+<hr>
+<h2> Giving feedback </h2>
 <p>
 Feedback is always welcome, so if you have any to give on this challenge please talk to me.
 
