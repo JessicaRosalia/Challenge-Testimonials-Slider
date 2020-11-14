@@ -3,6 +3,33 @@
 body{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    margin:0 auto;
+    max-width: 450px;
+    @media(min-width:768px){
+        max-width: 900px;
+        display: grid;
+       // grid-template-columns: repeat(1fr, 1fr);
+        grid-template-areas: "description avatar"
+                    "description avatar"
+                    "attribution attribution";
+
+        header{
+            grid-area: avatar ;
+        }
+        main{
+            grid-area: description;
+            grid-row: 1/3;
+            grid-column: 1/3;
+            z-index: 1;
+            text-align: center;
+            max-width: 420px;
+            align-self: center;
+        }
+        .attribution{
+            grid-area: attribution;
+            justify-content: center;
+        }
+    }
 }
 
 header{
@@ -12,34 +39,40 @@ header{
     background-position: 46% 45%;
     background-size: 88%;
 
+    @media(min-width:768px){
+        background-position: 0% 0%;
+        background-size: 60%;
+    }
+
 
         .container-img{
-            img{
-                width: 254px;
-                height: 253px;
+            position: relative;
+            width: 254px;
+            height: 253px;
+            >img{
+                width: 100%;
+                height: 100%;
             }
-        }
+            .icon-slider{
+                border-radius: 20px;
+                height: 40px;
+                width: 80px;
+                background: #fff;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
-        .icon-slider{
-            border-radius: 20px;
-            height: 40px;
-            width: 80px;
-            background: #fff;
-            position: absolute;
-            bottom: 10%;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            img{
-                &:nth-child(2){
-                    margin-left:32px;
+                img{
+                    &:nth-child(2){
+                        margin-left:32px;
+                    }
                 }
             }
         }
-    
 }
 
 main{
